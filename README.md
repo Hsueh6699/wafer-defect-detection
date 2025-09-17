@@ -31,6 +31,7 @@ dataset/
 ---
 
 ## ⚙️ 方法流程
+
 ```mermaid
 flowchart TD
     A[資料生成 wafer_map_demo.py] --> B[SVM 訓練 train_svm.py]

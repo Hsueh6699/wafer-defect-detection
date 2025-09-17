@@ -19,7 +19,7 @@
 - 影像大小：**26x26**，灰階圖  
 - `labels.csv`：包含圖片對應的標籤  
 
-資料集結構：
+### 資料集結構
 dataset/
 ├── images/
 │ ├── center/
@@ -40,8 +40,6 @@ flowchart TD
     C --> D
     D --> E[單張圖片測試 predict.py]
     E --> F[挑戰圖片 generate_hard_case.py]
-
----
 
 ## 📊 結果展示
 
@@ -74,11 +72,8 @@ CNN 學習效果更好，能捕捉更複雜的圖案
 模型信心度：**0.98**
 
 🚀 執行方式
-
 生成資料集
-
 python wafer_map_demo.py
-
 
 訓練模型
 
@@ -91,14 +86,10 @@ python train_svm.py
 
 python train_cnn.py
 
-
 單張圖片測試
-
 python predict.py
 
-
 挑戰圖片測試
-
 python generate_hard_case.py
 python predict.py
 
@@ -108,7 +99,7 @@ SVM 在簡單數據上表現良好，適合快速驗證。
 
 CNN 具備更高的準確率與泛化能力，能捕捉到隱藏模式。
 
-挑戰圖片 測試顯示模型會出現低信心預測，強調 資料增強與真實數據 的重要性。
+挑戰圖片測試顯示模型會出現低信心預測，強調 資料增強與真實數據的重要性。
 
 本專案展示了完整流程：
 資料生成 → 模型訓練 → 測試 → 結果視覺化

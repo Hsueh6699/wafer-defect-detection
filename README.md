@@ -43,20 +43,26 @@ flowchart TD
 ---
 
 📊 結果展示
-1. SVM 混淆矩陣
+
+### 1. SVM 混淆矩陣
+
 ![SVM 混淆矩陣](images/confusion_matrix.png)
 測試集準確率：1.00
 
 在四類缺陷上皆能穩定辨識
 
-2. CNN 訓練過程
+### 2. CNN 訓練過程
+
 ![CNN 訓練曲線](images/cnn_training.png)
+
 測試集準確率：1.00
 
 CNN 學習效果更好，能捕捉更複雜的圖案
 
-3. 單張圖片測試
+### 3. 單張圖片測試
+
 ![預測結果](images/predict_example.png)
+
 預測類別：Scratch
 
 模型信心度：0.98
